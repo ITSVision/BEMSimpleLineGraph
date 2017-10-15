@@ -377,7 +377,7 @@ typedef NS_ENUM(NSInteger, BEMInternalTags)
                 self.popUpLabel.textAlignment = 1;
                 self.popUpLabel.numberOfLines = 1;
                 self.popUpLabel.font = self.labelFont;
-                self.popUpLabel.textColor = self.colorBackgroundPopUplabel;
+                self.popUpLabel.textColor = self.colorTextPopUplabel;
                 self.popUpLabel.backgroundColor = [UIColor clearColor];
                 [self.popUpLabel sizeToFit];
                 self.popUpLabel.alpha = 0;
