@@ -154,6 +154,7 @@ typedef NS_ENUM(NSInteger, BEMInternalTags)
     _colorPoint = [UIColor colorWithWhite:1.0 alpha:0.7];
     _colorTouchInputLine = [UIColor grayColor];
     _colorBackgroundPopUplabel = [UIColor whiteColor];
+    _colorTextPopUplabel = [UIColor blackColor];
     _alphaTouchInputLine = 0.2;
     _widthTouchInputLine = 1.0;
     _colorBackgroundXaxis = nil;
@@ -376,6 +377,7 @@ typedef NS_ENUM(NSInteger, BEMInternalTags)
                 self.popUpLabel.textAlignment = 1;
                 self.popUpLabel.numberOfLines = 1;
                 self.popUpLabel.font = self.labelFont;
+                self.popUpLabel.textColor = self.colorBackgroundPopUplabel;
                 self.popUpLabel.backgroundColor = [UIColor clearColor];
                 [self.popUpLabel sizeToFit];
                 self.popUpLabel.alpha = 0;
